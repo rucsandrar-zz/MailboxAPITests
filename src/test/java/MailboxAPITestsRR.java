@@ -25,7 +25,7 @@ public class MailboxAPITests {
 
     @Test
     public void listMessageUID999 () {
-        get("http://localhost:4567/v1/messages/23")
+        get("http://localhost:4567/v1/messages/999")
                 .then()
                 .statusCode(404);
     }
